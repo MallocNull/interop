@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CommonLang" xml:space="preserve">
+    <value>{
+    "botText": {
+        "say"       : "{0}",
+        "join"      : "{0} has joined the chat.",
+        "leave"     : "{0} has disconnected.",
+        "jchan"     : "{0} entered the channel.",
+        "lchan"     : "{0} left the channel.",
+        "kick"      : "{0} has been kicked.",
+        "nick"      : "{0} is now known as {1}.",
+        "crchan"    : "{0} has been created.",
+        "delchan"   : "{0} has been deleted.",
+        "cpwdchan"  : "Password changed successfully.",
+        "cprivchan" : "Channel privilege changed successfully.",
+        "ipaddr"    : "User {0} - IP Address: {1}"
+    },
+    "botErrText": {
+        "nolang"    : "Error: Chatbot sent {1} id '{0}' with no definition in this language!",
+        "nocmd"     : "Error: Command {0} not found!",
+        "cmdna"     : "Error: Not allowed to use {0}!",
+        "cmderr"    : "Error: Command formatted incorrectly!",
+        "usernf"    : "Error: User {0} not found!",
+        "kickna"    : "Error: Not allowed to kick {0}!",
+        "samechan"  : "Error: You are already in {0}!",
+        "nochan"    : "Error: Channel {0} does not exist!",
+        "ipchan"    : "Error: You are not allowed to join {0}!",
+        "nopwchan"  : "Error: Channel {0} is password-protected! Use '/join {0} [password]'.",
+        "ipwchan"   : "Error: Password to channel {0} is incorrect!",
+        "inchan"    : "Error: Channel name cannot start with a @ or *!",
+        "nischan"   : "Error: Channel {0} already exists!",
+        "ndchan"    : "Error: You are not allowed to delete channel {0}!",
+        "namchan"   : "Error: You are not allowed to modify channel {0}!",
+        "nameinuse" : "Error: Username {0} in use!",
+        "rankerr"   : "Error: Cannot set channel privilege higher than your own!",
+        "reconnect" : "Connection lost! Attempting to reconnect automatically...",
+        "logerr"    : "Server uses the flat file database implementation and cannot serve logs to clients. To view chat logs, open the logs.txt file in the ffdb folder in the server's root directory.",
+        "generr"    : "An error has occurred!"
+    }
+}</value>
+  </data>
+  <data name="ConnectionAddress" xml:space="preserve">
+    <value>ws://aroltd.com:17777</value>
+  </data>
+  <data name="ConnectionPwd" xml:space="preserve">
+    <value>e25c69c67adfc9e62fcd661b3e825cb3d5357652</value>
+  </data>
+  <data name="ConnectionUserDebug" xml:space="preserve">
+    <value>malloc2</value>
+  </data>
+  <data name="ConnectionUserRelease" xml:space="preserve">
+    <value>malloc</value>
+  </data>
+  <data name="CoreLang" xml:space="preserve">
+    <value>{
+    "botText": {
+        "silence":  "You have been silenced!",
+        "unsil":    "You have been unsilenced!",
+        "usilok":   "{0} has been unsilenced.",
+        "silok":    "{0} has been silenced."
+    },
+    "botErrText": {
+        "silerr":   "Error: User is already silenced!",
+        "usilerr":  "Error: User is not silenced!",
+        "silperr":  "Error: You are not allowed to silence this user!",
+        "usilperr": "Error: You are not allowed to unsilence this user!",
+        "silself":  "Error: You cannot silence yourself!"
+    }
+}</value>
+  </data>
+</root>
